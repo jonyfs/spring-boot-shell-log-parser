@@ -1,0 +1,19 @@
+plugins:
+  checkstyle:
+    enabled: true
+  pmd:
+    enabled: true
+  fixme:
+    enabled: true
+  git-legal:
+    enabled: true
+  markdownlint:
+    enabled: true
+  sonar-java:
+    enabled: true
+    config:
+      sonar.java.source: 8
+      minimum_severity: critical
+ratings:
+  paths:
+  - "**.java"
