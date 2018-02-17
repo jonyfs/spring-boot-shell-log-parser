@@ -3,6 +3,9 @@ install: mvn install
 jdk:
   - oraclejdk8
 env:
-  CODECLIMATE_REPO_TOKEN: 4cdcaaeb24289d25a78871c4ed16880414587df95e698efb88bb4db4379da007
+  global:
+    - CC_TEST_REPORTER_ID=4cdcaaeb24289d25a78871c4ed16880414587df95e698efb88bb4db4379da007
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+
+
