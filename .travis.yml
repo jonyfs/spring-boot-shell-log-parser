@@ -1,14 +1,19 @@
 language: java
 sudo: false # faster builds
+before_install:
+  - sudo apt-get install jq
+  - wget -O ~/codacy-coverage-reporter-assembly-latest.jar $(curl https://api.github.com/repos/codacy/codacy-coverage-reporter/releases/latest | jq -r .assets[0].browser_download_url)
 install: mvn install
 jdk:
   - oraclejdk8
 env:
   global:
     - CC_TEST_REPORTER_ID=4cdcaaeb24289d25a78871c4ed16880414587df95e698efb88bb4db4379da007
-
+    - CODACY_PROJECT_TOKEN=6670e137c6f040b2849b7243032f3768
 script: "mvn cobertura:cobertura"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - java -cp ~/codacy-coverage-reporter-assembly-latest.jar com.codacy.CodacyCoverageReporter -l Java -r build/reports/jacoco/test/jacocoTestReport.xml
+
 
