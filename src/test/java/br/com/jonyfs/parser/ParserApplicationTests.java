@@ -33,39 +33,39 @@ public class ParserApplicationTests {
     private Shell shell;
 
     @Test
-    public void test_1_verifyIfApplicationContextIsNotNull() {
+    public void test1verifyIfApplicationContextIsNotNull() {
         assertThat(applicationContext).isNotNull();
     }
 
     @Test
-    public void test_2_verifyIfInitialCountIsZero(){
+    public void test2verifyIfInitialCountIsZero(){
         assertThat(shell.evaluate(() -> "count")).isEqualTo(0L);
     }
 
     @Test
-    public void test_3_verifyIfAccessLogIsLoaded(){
+    public void test3verifyIfAccessLogIsLoaded(){
         assertThat(shell.evaluate(() -> "load access.log")).isEqualTo("Loaded");
 
     }
 
     @Test
-    public void test_4_verifyIfDataInDataBaseIsLoaded(){
+    public void test4verifyIfDataInDataBaseIsLoaded(){
         assertThat(shell.evaluate(() -> "count")).isEqualTo(logRepository.count());
     }
 
     @Test
-    public void test_5_verifyIfDataInDataBaseIsLoaded(){
+    public void test5verifyIfDataInDataBaseIsLoaded(){
         assertThat(shell.evaluate(() -> "query 2017-01-01.13:00:00 hourly 100")).isNotNull();
     }
 
     @Test
-    public void test_6verifyIfCleanCommandWorks(){
+    public void test6verifyIfCleanCommandWorks(){
         assertThat(shell.evaluate(() -> "clean")).isEqualTo("OK!");
-        test_4_verifyIfDataInDataBaseIsLoaded();
+        test4verifyIfDataInDataBaseIsLoaded();
     }
 
     @Test
-    public void test_7verifyIfParseCommandWorks(){
+    public void test7verifyIfParseCommandWorks(){
         assertThat(shell.evaluate(() -> "parse access.log 2017-01-01.13:00:00 hourly 100")).isNotNull();
     }
 }
