@@ -53,8 +53,7 @@ After start, type help to list all commands.
 
 ### Codacy
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9cb5e2c6260a4d218af2a464122a8887)](https://www.codacy.com/app/jonyfs/spring-boot-kotlin-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jonyfs/spring-boot-kotlin-api&amp;utm_campaign=Badge_Grade)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6c961da94ce044399b6f95e3b0c26c9f)](https://www.codacy.com/app/jonyfs/spring-boot-shell-log-parser?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jonyfs/spring-boot-shell-log-parser&amp;utm_campaign=Badge_Grade)
 
 ### Code Climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/b66ddd668d657a4457aa/maintainability)](https://codeclimate.com/github/jonyfs/spring-boot-shell-log-parser/maintainability)
@@ -63,4 +62,5 @@ After start, type help to list all commands.
 
 ### Dependency Badge
 
-[![Dependency Status](https://www.versioneye.com/user/projects/59272690f5a9a6002f636fa4/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59272690f5a9a6002f636fa4)
+[![Dependency Status](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d)
+
