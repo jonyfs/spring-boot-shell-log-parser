@@ -1,0 +1,8 @@
+language: java
+install: mvn install
+jdk:
+  - oraclejdk8
+env:
+  CODECLIMATE_REPO_TOKEN: 3dcc5dd7ace894fb5eaf82e8721f5e5b9294f9b60ba6974aba1120255afa3f1c
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
