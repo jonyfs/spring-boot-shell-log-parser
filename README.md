@@ -43,3 +43,24 @@ After start, type help to list all commands.
 ### TravisCI
 [![Build Status for jonyfs/spring-boot-shell-log-parserapi](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser.svg?branch=master)](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser)
 
+## Code Quality
+
+### Codebeat
+[![codebeat badge](https://codebeat.co/badges/cd95d2e0-4db8-4090-b4c4-c2a5504f9ccf)](https://codebeat.co/projects/github-com-jonyfs-spring-boot-shell-log-parser-master)
+
+### Codecov
+[![codecov](https://codecov.io/gh/jonyfs/spring-boot-shell-log-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/jonyfs/spring-boot-shell-log-parser)
+
+### Codacy
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9cb5e2c6260a4d218af2a464122a8887)](https://www.codacy.com/app/jonyfs/spring-boot-kotlin-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jonyfs/spring-boot-kotlin-api&amp;utm_campaign=Badge_Grade)
+
+
+### Code Climate
+[![Maintainability](https://api.codeclimate.com/v1/badges/b66ddd668d657a4457aa/maintainability)](https://codeclimate.com/github/jonyfs/spring-boot-shell-log-parser/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b66ddd668d657a4457aa/test_coverage)](https://codeclimate.com/github/jonyfs/spring-boot-shell-log-parser/test_coverage)
+
+### Dependency Badge
+
+[![Dependency Status](https://www.versioneye.com/user/projects/59272690f5a9a6002f636fa4/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59272690f5a9a6002f636fa4)
