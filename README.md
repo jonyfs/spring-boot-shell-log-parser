@@ -34,7 +34,7 @@ After start, type help to list all commands.
         parse: Parse the log file and search data. Example: parse path-to-log-file start-date(in yyyy-MM-dd.HH.mm.ss format) duration(hourly or daily) threshold(greather than 0)
         query: Search data from database. Example: query start-date(in yyyy-MM-dd.HH.mm.ss format) duration(hourly or daily) threshold(greather than 0)
 
-## Continuous Integration/Deployment
+## Continuous Integration
 
 ### Codeship
 
