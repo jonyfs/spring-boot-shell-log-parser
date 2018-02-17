@@ -39,3 +39,7 @@ After start, type help to list all commands.
 ### Codeship
 
 [ ![Codeship Status for jonyfs/spring-boot-shell-log-parser](https://app.codeship.com/projects/770d74c0-f628-0135-cc1d-16cf1470df95/status?branch=master)](https://app.codeship.com/projects/274265)
+
+### TravisCI
+[![Build Status for jonyfs/spring-boot-shell-log-parserapi](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser.svg?branch=master)](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser)
+
