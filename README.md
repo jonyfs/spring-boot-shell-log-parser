@@ -33,3 +33,9 @@ After start, type help to list all commands.
         load: Load data file. Example: load path-to-log-file
         parse: Parse the log file and search data. Example: parse path-to-log-file start-date(in yyyy-MM-dd.HH.mm.ss format) duration(hourly or daily) threshold(greather than 0)
         query: Search data from database. Example: query start-date(in yyyy-MM-dd.HH.mm.ss format) duration(hourly or daily) threshold(greather than 0)
+
+## Continuous Integration/Deployment
+
+### Codeship
+
+[ ![Codeship Status for jonyfs/spring-boot-shell-log-parser](https://app.codeship.com/projects/770d74c0-f628-0135-cc1d-16cf1470df95/status?branch=master)](https://app.codeship.com/projects/274265)
