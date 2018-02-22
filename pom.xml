@@ -120,7 +120,6 @@
                         <format>xml</format>
                     </formats>
                     <check/>
-                    <outputDirectory>${project.build.directory}</outputDirectory>
                 </configuration>
             </plugin>
             <plugin>
