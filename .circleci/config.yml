@@ -50,8 +50,13 @@ jobs:
           name: Running Tests
           command: |
             mvn test integration-test cobertura:cobertura
-            ./cc-test-reporter format-coverage -t cobertura ./target/site/cobertura/coverage.xml
+      - run:
+          name: Running CodeClimate
+          command: |
+            ./cc-test-reporter before-build
+            ./cc-test-reporter format-coverage -t cobertura -d target/site/cobertura/coverage.xml
             ./cc-test-reporter upload-coverage
+
       - run:
           name: Running CodeCov
           command: |
