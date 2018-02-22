@@ -43,6 +43,9 @@ After start, type help to list all commands.
 ### TravisCI
 [![Build Status for jonyfs/spring-boot-shell-log-parserapi](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser.svg?branch=master)](https://travis-ci.org/jonyfs/spring-boot-shell-log-parser)
 
+### CircleCI
+[![CircleCI](https://circleci.com/gh/jonyfs/spring-boot-shell-log-parser.svg?style=svg)](https://circleci.com/gh/jonyfs/spring-boot-shell-log-parser)
+
 ## Code Quality
 
 ### Codebeat
@@ -63,4 +66,5 @@ After start, type help to list all commands.
 ### Dependency Badge
 
 [![Dependency Status](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d)
+
 
