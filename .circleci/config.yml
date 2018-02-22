@@ -5,6 +5,8 @@
 version: 2
 jobs:
   build:
+    environment:
+        CC_TEST_REPORTER_ID: 4cdcaaeb24289d25a78871c4ed16880414587df95e698efb88bb4db4379da007
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
