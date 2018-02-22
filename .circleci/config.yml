@@ -47,13 +47,15 @@ jobs:
 
       # run tests
       - run:
+          name: Running Tests
           command: |
             mvn test integration-test
-            ./cc-test-reporter format-coverage -t cobertura ./target/cobertura/cobertura.ser
+            ./cc-test-reporter format-coverage -t cobertura ./target/cobertura
             ./cc-test-reporter upload-coverage
 
       # run sonar
       - run:
+          name: Running Sonar
           command: |
             mvn sonar:sonar \
               -Dsonar.organization=jonyfs-github \
