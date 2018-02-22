@@ -50,8 +50,12 @@ jobs:
           name: Running Tests
           command: |
             mvn test integration-test
-            ./cc-test-reporter format-coverage -t cobertura ./target/cobertura
-            ./cc-test-reporter upload-coverage
+
+        - run:
+            name: Running CodeClimate
+            command: |
+              ./cc-test-reporter format-coverage -t cobertura ./target/cobertura
+              ./cc-test-reporter upload-coverage
 
       # run sonar
       - run:
