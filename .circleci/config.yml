@@ -52,3 +52,10 @@ jobs:
             mvn integration-test
             ./cc-test-reporter after-build --coverage-input-type cobertura --exit-code $?
 
+      # run sonar
+      - run:
+          command:  !
+            mvn sonar:sonar \
+              -Dsonar.organization=jonyfs-github \
+              -Dsonar.host.url=https://sonarcloud.io \
+              -Dsonar.login=a13743a8ba1dd02c8d7a8283fdc34c975efb5336
