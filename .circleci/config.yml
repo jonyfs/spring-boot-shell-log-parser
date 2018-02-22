@@ -49,7 +49,7 @@ jobs:
       - run:
           command: |
             mvn test integration-test
-            ./cc-test-reporter format-coverage -t cobertura .target/cobertura/cobertura.ser
+            ./cc-test-reporter format-coverage -t cobertura ./target/cobertura/cobertura.ser
             ./cc-test-reporter upload-coverage
 
       # run sonar
