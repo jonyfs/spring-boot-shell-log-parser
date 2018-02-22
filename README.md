@@ -63,6 +63,9 @@ After start, type help to list all commands.
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b66ddd668d657a4457aa/test_coverage)](https://codeclimate.com/github/jonyfs/spring-boot-shell-log-parser/test_coverage)
 
+### CodeScene
+[![](http://codescene.io/projects/2438/status.svg) Get more details at **codescene.io**.](http://codescene.io/projects/2438/jobs/latest-successful/results)
+
 ### Dependency Badge
 
 [![Dependency Status](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d)
