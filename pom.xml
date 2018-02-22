@@ -24,6 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <sonar.junit.reportPaths>${project.build.directory}/surefire-reports</sonar.junit.reportPaths>
+        <cobertura.report.format>xml</cobertura.report.format>
     </properties>
 
     <dependencies>
@@ -116,7 +117,7 @@
                 <version>2.7</version>
                 <configuration>
                     <formats>
-                        <format>html</format>
+                        <format>xml</format>
                         <format>xml</format>
                     </formats>
                     <check></check>

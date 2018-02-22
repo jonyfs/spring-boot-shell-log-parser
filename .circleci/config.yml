@@ -49,12 +49,11 @@ jobs:
       - run:
           name: Running Tests
           command: |
-            mvn cobertura:cobertura
-
+            mvn cobertura:cobertura -Dcobertura.report.format=xml
       - run:
           name: Running CodeClimate
           command: |
-            ./cc-test-reporter format-coverage -t cobertura target/cobertura/cobertura.ser
+            ./cc-test-reporter format-coverage -t cobertura target/cobertura/cobertura.xml
             ./cc-test-reporter upload-coverage
 
       # run sonar
