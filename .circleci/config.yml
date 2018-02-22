@@ -51,11 +51,11 @@ jobs:
           command: |
             mvn test integration-test
 
-        - run:
-            name: Running CodeClimate
-            command: |
-              ./cc-test-reporter format-coverage -t cobertura target/cobertura/cobertura.ser
-              ./cc-test-reporter upload-coverage
+      - run:
+          name: Running CodeClimate
+          command: |
+            ./cc-test-reporter format-coverage -t cobertura target/cobertura/cobertura.ser
+            ./cc-test-reporter upload-coverage
 
       # run sonar
       - run:
