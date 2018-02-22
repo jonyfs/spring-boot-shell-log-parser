@@ -53,11 +53,6 @@ jobs:
             ./cc-test-reporter format-coverage -t cobertura ./target/site/cobertura/coverage.xml
             ./cc-test-reporter upload-coverage
       - run:
-          name: Running CodeClimate
-          command: |
-
-
-      - run:
           name: Running CodeCov
           command: |
             - bash <(curl -s https://codecov.io/bash)
