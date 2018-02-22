@@ -49,7 +49,7 @@ jobs:
       - run:
           name: Running Tests
           command: |
-            mvn test integration-test
+            mvn cobertura:cobertura
 
       - run:
           name: Running CodeClimate
