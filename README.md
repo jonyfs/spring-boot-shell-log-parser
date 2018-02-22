@@ -66,6 +66,13 @@ After start, type help to list all commands.
 ### CodeScene
 [![](http://codescene.io/projects/2438/status.svg) Get more details at **codescene.io**.](http://codescene.io/projects/2438/jobs/latest-successful/results)
 
+### Sonar
+[![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=br.com.jonyfs%3Aparser)](https://sonarcloud.io/api/project_badges/quality_gate?project=br.com.jonyfs%3Aparser)
+
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=security_rating)](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=security_rating)
+
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=sqale_rating)](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=sqale_rating)
+
 ### Dependency Badge
 
 [![Dependency Status](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d)
