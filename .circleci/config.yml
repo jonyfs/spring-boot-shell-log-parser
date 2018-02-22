@@ -49,7 +49,7 @@ jobs:
       - run:
           name: Running Tests
           command: |
-            mvn cobertura:cobertura -Dcobertura.report.format=xml
+            mvn test integration-test cobertura:cobertura
       - run:
           name: Running CodeClimate
           command: |
