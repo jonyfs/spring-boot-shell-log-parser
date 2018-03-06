@@ -77,6 +77,6 @@ After start, type help to list all commands.
 
 ### Dependency Badge
 
-[![Dependency Status](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a8862560fb24f56e5dabe6d)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/jonyfs/spring-boot-shell-log-parser.svg)](https://beta.gemnasium.com/projects/github.com/jonyfs/spring-boot-shell-log-parser)
 
 
