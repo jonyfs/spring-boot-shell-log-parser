@@ -65,14 +65,14 @@ After start, type help to list all commands.
 [![](http://codescene.io/projects/2438/status.svg)](http://codescene.io/projects/2438/jobs/latest-successful/results)
 
 ### Sonar
-[![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=br.com.jonyfs%3Aparser)](https://sonarcloud.io/api/project_badges/quality_gate?project=br.com.jonyfs%3Aparser)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=br.com.jonyfs%3Aparser)](https://sonarcloud.io/dashboard?id=br.com.jonyfs%3Aparser)
 
-[![Security](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=security_rating)](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=security_rating)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=security_rating)](https://sonarcloud.io/dashboard?id=br.com.jonyfs%3Aparser)
 
-[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=sqale_rating)](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=sqale_rating)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=br.com.jonyfs%3Aparser)
 
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=coverage)](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=coverage)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=br.com.jonyfs%3Aparser&metric=coverage)](https://sonarcloud.io/dashboard?id=br.com.jonyfs%3Aparser)
 
 
 ### Dependency Badge
